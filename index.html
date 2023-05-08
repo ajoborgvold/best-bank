@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>BestBank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"       rel="stylesheet">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <img src="assets/bestbank_logo.png" class="logo">
+        <nav class="nav-small-screen">
+            <div class="nav-container">
+                <p class="nav-home">Home</p>
+                <i class="fa-solid fa-bars" id="nav-menu"></i>
+            </div>
+            <div class="nav-container nav-bar-small hidden" id="nav-bar-small">
+                <p class="nav-item">Payments</p>
+                <p class="nav-item">Savings</p>
+                <p class="nav-item">Financing</p>
+                <p class="nav-item">Stocks</p>
+            </div>
+        </nav>
+        
+        <nav class="nav-large-screen">
+            <div class="nav-container">
+                <p class="nav-home">Home</p>
+                <p class="nav-item">Payments</p>
+                <p class="nav-item">Savings</p>
+                <p class="nav-item">Financing</p>
+                <p class="nav-item">Stocks</p>
+            </div>
+        </nav>
+        
+        <div class="buttons-container">
+            <button class="pay-transfer-btn">Pay</button>
+            <button class="pay-transfer-btn">Transfer</button>    
+        </div>
+        
+        <section class="accounts-spendings-section">
+            <div class="accounts-container">
+                <h1>Accounts</h1>
+                <div class="accounts-element" id="accounts-element">
+                    <!-- accounts here -->
+                </div>
+            </div>
+            
+            <div class="spendings-container">
+                <h1>Spendings</h1>
+                <div class="spendings-element" id="spendings-element">
+                    <!-- spendings here -->
+                </div>
+            </div>
+        </section>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
